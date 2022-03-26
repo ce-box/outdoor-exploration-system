@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Crazyflie-contol-board-rescue)(type Legacy)(uri "${KIPRJMOD}/Crazyflie contol board-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,161 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "6.0.2-378541a8eb~116~ubuntu20.04.1"
+    },
+    "CreationDate": "2022-03-13T20:34:00-06:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Crazyflie contol board",
+      "GUID": "4372617a-7966-46c6-9965-20636f6e746f",
+      "Revision": "F"
+    },
+    "Size": {
+      "X": 80.2009,
+      "Y": 80.2007
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.6002,
+    "Finish": "None"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.1524,
+      "MinLineWidth": 0.1524,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.1524,
+      "MinLineWidth": 0.3048,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Crazyflie contol board-Front_L1.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-Gnd_L2.g2",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-Vcc_L3.g3",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-Back_L4.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-B_Paste.gbp",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Crazyflie contol board-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Crazyflie contol board-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Crazyflie contol board-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Name": "Front_L1"
+    },
+    {
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "Front_L1/Gnd_L2",
+      "Notes": "Type: dielectric layer 1 (from Front_L1 to Gnd_L2)"
+    },
+    {
+      "Type": "Copper",
+      "Name": "Gnd_L2"
+    },
+    {
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "Gnd_L2/Vcc_L3",
+      "Notes": "Type: dielectric layer 2 (from Gnd_L2 to Vcc_L3)"
+    },
+    {
+      "Type": "Copper",
+      "Name": "Vcc_L3"
+    },
+    {
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "Vcc_L3/Back_L4",
+      "Notes": "Type: dielectric layer 3 (from Vcc_L3 to Back_L4)"
+    },
+    {
+      "Type": "Copper",
+      "Name": "Back_L4"
+    },
+    {
+      "Type": "SolderMask",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

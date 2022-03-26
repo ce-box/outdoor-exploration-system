@@ -1,0 +1,82 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Crazyflie-contol-board-rescue_AGND
+#
+DEF Crazyflie-contol-board-rescue_AGND #PWR 0 10 Y Y 1 F P
+F0 "#PWR" 0 0 40 H I C CNN
+F1 "Crazyflie-contol-board-rescue_AGND" 0 -70 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0 -40 0 40 0 0 -40 -40 0 N
+X AGND 1 0 0 0 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Crazyflie-contol-board-rescue_C
+#
+DEF Crazyflie-contol-board-rescue_C C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "Crazyflie-contol-board-rescue_C" 50 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Crazyflie-contol-board-rescue_MPU60X0
+#
+DEF Crazyflie-contol-board-rescue_MPU60X0 U 0 40 Y Y 1 F N
+F0 "U" 0 700 60 H V C CNN
+F1 "Crazyflie-contol-board-rescue_MPU60X0" 0 -700 60 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 50 950 60 0 0 0 "MPU6000 (SDI, SCLK, CS, SDO) " Normal 0 C C
+T 0 50 800 60 0 0 0 "MPU6050 (VLOGIC)" Normal 0 C C
+S -400 650 400 -650 0 1 0 N
+P 2 0 1 0 -400 -450 400 -450 N
+X CLKIN 1 -700 550 300 R 50 50 1 1 I
+X REGOUT 10 -700 -350 300 R 50 50 1 1 O
+X FSYNC 11 -700 450 300 R 50 50 1 1 I
+X INT 12 700 450 300 L 50 50 1 1 O
+X VDD 13 -700 -550 300 R 50 50 1 1 W
+X GND 18 700 -550 300 L 50 50 1 1 W
+X RESV 19 700 -250 300 L 50 50 1 1 I
+X CPOUT 20 -700 -250 300 R 50 50 1 1 I
+X RESV 21 700 -150 300 L 50 50 1 1 I
+X CLKOUT 22 700 550 300 L 50 50 1 1 O
+X SCL/SCLK 23 -700 250 300 R 50 50 1 1 B
+X SDA/SDI 24 -700 150 300 R 50 50 1 1 I
+X AUX_DA 6 700 150 300 L 50 50 1 1 B
+X AUX_CL 7 700 250 300 L 50 50 1 1 B
+X VLOGIC/CS 8 -700 -150 300 R 50 50 1 1 I
+X AD0/SDO 9 -700 50 300 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Crazyflie-contol-board-rescue_VCCA
+#
+DEF Crazyflie-contol-board-rescue_VCCA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 30 H I C CNN
+F1 "Crazyflie-contol-board-rescue_VCCA" 0 100 30 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 20 0 1 0 N
+P 3 0 1 0 0 0 0 30 0 30 N
+X VCCA 1 0 0 0 U 20 20 0 0 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
