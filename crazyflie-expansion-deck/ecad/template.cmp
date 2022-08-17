@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by PcbNew date = fre 30 jan 2015 13:04:43
+
+BeginCmp
+TimeStamp = /533E81FD;
+Reference = P1;
+ValeurCmp = CF_EXP_LEFT;
+IdModule  = connectors:CF2-EXP-SMD-HOLES;
+EndCmp
+
+BeginCmp
+TimeStamp = /533E838C;
+Reference = P2;
+ValeurCmp = CF_EXP_RIGHT;
+IdModule  = connectors:CF2-EXP-SMD-HOLES;
+EndCmp
+
+EndListe
