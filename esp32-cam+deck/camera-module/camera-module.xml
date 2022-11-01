@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\ealvarado\Documents\Circuits\outdoor-exploration-system\esp32-cam+deck\camera-module\camera-module.kicad_sch</source>
+    <date>31/10/2022 09:57:50 p. m.</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Módulo de cámara ESP32 para Crazyflie 1.0</title>
+        <company>Instituto Tecnológico de Costa Rica</company>
+        <rev/>
+        <date>2022-10-31</date>
+        <source>camera-module.kicad_sch</source>
+        <comment number="1" value="@ocastro @ealvarado"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>ESP32-CAM</value>
+      <footprint>ESP32CAM</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Ai-Thinker-ESP32-CAM_C277946.pdf</datasheet>
+      <fields>
+        <field name="Description">Modules PCBA Module RoHS</field>
+        <field name="Height">5</field>
+        <field name="Manufacturer_Name">Ai-Thinker</field>
+        <field name="Manufacturer_Part_Number">ESP32-CAM</field>
+      </fields>
+      <libsource lib="ESP32-CAM" part="ESP32-CAM" description="Modules PCBA Module RoHS"/>
+      <property name="Description" value="Modules PCBA Module RoHS"/>
+      <property name="Height" value="5"/>
+      <property name="Manufacturer_Name" value="Ai-Thinker"/>
+      <property name="Manufacturer_Part_Number" value="ESP32-CAM"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="camera-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd69fdf9-a04b-433b-8f88-2de9c888287f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ESP32-CAM" part="ESP32-CAM">
+      <description>Modules PCBA Module RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Ai-Thinker-ESP32-CAM_C277946.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ESP32-CAM</field>
+        <field name="Footprint">ESP32CAM</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Ai-Thinker-ESP32-CAM_C277946.pdf</field>
+        <field name="Description">Modules PCBA Module RoHS</field>
+        <field name="Height">5</field>
+        <field name="Manufacturer_Name">Ai-Thinker</field>
+        <field name="Manufacturer_Part_Number">ESP32-CAM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO4" type="passive"/>
+        <pin num="2" name="IO2" type="passive"/>
+        <pin num="3" name="IO14" type="passive"/>
+        <pin num="4" name="IO15" type="passive"/>
+        <pin num="5" name="IO13" type="passive"/>
+        <pin num="6" name="IO12" type="passive"/>
+        <pin num="7" name="GND_1" type="passive"/>
+        <pin num="8" name="5V" type="passive"/>
+        <pin num="9" name="3V3" type="passive"/>
+        <pin num="10" name="IO16" type="passive"/>
+        <pin num="11" name="IO0" type="passive"/>
+        <pin num="12" name="GND_2" type="passive"/>
+        <pin num="13" name="VCC" type="passive"/>
+        <pin num="14" name="U0R" type="passive"/>
+        <pin num="15" name="U0T" type="passive"/>
+        <pin num="16" name="GND_3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ESP32-CAM">
+      <uri>C:/Users/ealvarado/Documents/Circuits/kicad-models/LIB_ESP32-CAM/ESP32-CAM/KiCad/ESP32-CAM.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="IC1" pin="12" pinfunction="GND_2" pintype="passive"/>
+      <node ref="IC1" pin="16" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="GND_1" pintype="passive"/>
+    </net>
+    <net code="2" name="VCC">
+      <node ref="IC1" pin="13" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="3" name="unconnected-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="IO4" pintype="passive"/>
+    </net>
+    <net code="4" name="unconnected-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="IO14" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="IO15" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="IO13" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="IO12" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(IC1-Pad8)">
+      <node ref="IC1" pin="8" pinfunction="5V" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(IC1-Pad9)">
+      <node ref="IC1" pin="9" pinfunction="3V3" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(IC1-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="IO16" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(IC1-Pad11)">
+      <node ref="IC1" pin="11" pinfunction="IO0" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(IC1-Pad14)">
+      <node ref="IC1" pin="14" pinfunction="U0R" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(IC1-Pad15)">
+      <node ref="IC1" pin="15" pinfunction="U0T" pintype="passive"/>
+    </net>
+  </nets>
+</export>
