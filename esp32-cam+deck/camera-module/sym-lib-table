@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ESP32-CAM")(type "Legacy")(uri "C:/Users/ealvarado/Documents/Circuits/outdoor-exploration-system/esp32-cam+deck/libs/ESP32-CAM/KiCAD/ESP32-CAM.lib")(options "")(descr ""))
+)
